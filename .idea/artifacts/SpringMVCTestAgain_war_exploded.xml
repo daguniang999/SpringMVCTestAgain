@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringMVCTestAgain:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringMVCTestAgain_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringMVCTestAgain/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMVCTestAgain" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring-aspects-4.3.26.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

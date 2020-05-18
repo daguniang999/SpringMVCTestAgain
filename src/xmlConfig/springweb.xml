@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jpa="http://www.springframework.org/schema/c"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+
+<!--    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">-->
+<!--        <property name="defaultEncoding" value="utf-8"></property>-->
+<!--        <property name="maxUploadSize" value="2000000"></property>-->
+<!--    </bean>-->
+
+<!--        <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+<!--        </bean>-->
+
+<!--    <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">-->
+<!--        <property name="jndiName" value="java:comp/env/jndi/mysql"/>-->
+
+<!--    </bean>-->
+<!--    <security:global-method-security secured-annotations="enabled"></security:global-method-security>-->
+</beans>
